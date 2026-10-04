@@ -1,0 +1,29 @@
+Para atualizar um ícone, você só precisa alterar o bloco dele dentro de const ICONES.
+
+Por exemplo, seu WhatsApp atualmente está assim:
+
+{
+    nome: 'whatsapp',
+    fonte: 'cdn',
+    colecao: 'basil',
+    icone: 'whatsapp-outline'
+},
+
+Se quiser trocar para outro ícone, altere apenas:
+
+colecao: 'NOVA-COLECAO',
+icone: 'NOVO-ICONE'
+
+Por exemplo:
+
+{
+    nome: 'whatsapp',
+    fonte: 'cdn',
+    colecao: 'basil',
+    icone: 'whatsapp-solid'
+},
+
+Depois, no terminal, rode:
+
+node extrair_logos.js
+./baixar_logos.sh
