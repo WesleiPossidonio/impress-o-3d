@@ -21,7 +21,7 @@ $fn = 120;
 // =========================================================================
 
 // Logo principal
-ARQUIVO_LOGOTIPO = "pix.svg";
+ARQUIVO_LOGOTIPO = "google.svg";
 
 LOGO_LARGURA = 66;
 LOGO_ALTURA  = 66;
@@ -364,29 +364,4 @@ rotate([
 
 
 }
-
-// =========================================================================
-// PEÇA 2 — PLAQUINHA DO QR CODE
-// =========================================================================
-
-// Cartão totalmente retangular
-// 80 x 60 x 0.8 mm
-//
-// Nenhum furo.
-// Nenhum recorte.
-// Nenhuma meia-lua.
-// =========================================================================
-
-translate([
-60,
-10,
-0
-])
-
-
-cube([
-    QR_LARGURA,
-    QR_ESPESSURA,
-    QR_ALTURA
-]);
 

@@ -21,7 +21,7 @@ $fn = 120;
 // =========================================================================
 
 // Logo principal
-ARQUIVO_LOGOTIPO = "wifi_raw.svg";
+ARQUIVO_LOGOTIPO = "google.svg";
 
 LOGO_LARGURA = 66;
 LOGO_ALTURA  = 66;
@@ -51,7 +51,7 @@ NFC_TAG_DIAMETRO = 25;
 NFC_CAVIDADE_PROFUNDIDADE = 1.8;
 
 // Relevo
-RELEVO = 0.7;
+RELEVO = 0.4;
 
 // Painel
 LARGURA = 100;
